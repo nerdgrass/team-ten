@@ -4,3 +4,21 @@
 .side-nav li a {
 	color: lighten($primary-color, 25%);
 }
+small {
+	padding-left: .3em;
+}
+span.npo-info {
+	font-weight: bold;
+	margin-right: .2em;
+}
+.npo-cover {
+	background: url('../img/girls-leap-cover.jpg') center center no-repeat;
+	background-size: cover;
+	height: 10em;
+	
+	h1 {
+		padding: .5em;
+		color:#c7c3e1;
+		text-shadow: 2px 2px 4px rgba(30, 0, 49, 0.75);
+	}
+}
