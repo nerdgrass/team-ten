@@ -1,0 +1,57 @@
+// Utility Classes
+.red {background: red !important;}
+.centered {text-align: center;}
+.green {color: green !important;}
+
+h1.logo-mobile {
+	text-align: center;
+	margin: 0;
+	padding: .2em 0;
+}
+nav {
+	background: $primary-color;
+	border-bottom: 10px solid darken($primary-color, 20%);
+}
+.map {
+	width: 100%;
+	background: url('../img/map.png') center center no-repeat;
+	height: 20em;
+	border-bottom: 10px solid $primary-color;
+}
+.map-search {
+	margin-top: 1em;
+}
+.map-controls {
+	margin-top: 12em;
+}
+.map-gps-icon {
+	background: url('../img/location.png') no-repeat center center;
+	background-size: cover;
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+}
+.map-filter-icon {
+	background: url('../img/np-filter.png') no-repeat center center;
+	background-size: cover;
+	display: inline-block;
+	width: 2em;
+	height: 2em;
+}
+
+.coupon-deets {
+	font-size: emCalc(10px);
+}
+.stock {
+	font-size: emCalc(10px);
+	text-align: center;
+}
+.coupon-info {
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	text-align: center;
+}
+.coupon-numbers {
+	text-align: center;
+	font-size: emCalc(36px);
+}
